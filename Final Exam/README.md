@@ -1,3 +1,4 @@
+#Final Exam Belajar Dasar Pemrograman Javascript Dicoding
 Manakah dari kode berikut ini yang merupakan kode JavaScript untuk mencetak “Dicoding” ke konsol?
 <br>Jawaban: ``` console.log(“Dicoding”); ```
 #
@@ -129,7 +130,7 @@ Bagaimanakah karakteristik API pada Node.js?
 #
 
 Bagaimana cara memeriksa versi NPM yang terinstal saat ini?
-Jawaban: ``` npm --version ```
+<br>Jawaban: ``` npm --version ```
 #
 
 Cara yang tepat untuk meng-export beberapa nilai sekaligus dalam module adalah ...
@@ -137,11 +138,11 @@ Cara yang tepat untuk meng-export beberapa nilai sekaligus dalam module adalah .
 #
 
 Berikut ini adalah alasan untuk menerapkan module pada project JavaScript, kecuali...
-Jawaban: Membebaskan program dari adanya error/bug.
+<br>Jawaban: Membebaskan program dari adanya error/bug.
 #
 
 Manakah keyword berikut ini yang digunakan untuk membuat error secara manual?
-Jawaban: throw
+<br>Jawaban: throw
 #
 
 Perhatikan kode berikut:
@@ -186,28 +187,28 @@ undefined
 #
 
 Bagaimana proses asynchronous dijalankan pada sebuah program?
-Jawaban: Dijalankan tanpa perlu menunggu hasilnya
+<br>Jawaban: Dijalankan tanpa perlu menunggu hasilnya
 #
 
 Apa yang dimaksud dengan fungsi promisify pada Node.js dan bagaimana cara menggunakannya?
-Jawaban: Fungsi util.promisify digunakan untuk mengubah fungsi asynchronous callback-based menjadi Promise-based pada Node.js. 
+<br>Jawaban: Fungsi util.promisify digunakan untuk mengubah fungsi asynchronous callback-based menjadi Promise-based pada Node.js. 
 Promisify hanya bekerja pada fungsi asynchronous yang menerapkan Node.js callback-style.
 #
 
 Apa yang terjadi pada keadaan pending dalam objek Promise?
-Jawaban: Objek Promise sedang berjalan.
+<br>Jawaban: Objek Promise sedang berjalan.
 #
 
 Berikut ini adalah pernyataan yang tepat mengenai dev dependencies, kecuali...
-Jawaban: Secara default package npm yang ditambahkan termasuk dalam dev dependencies.
+<br>Jawaban: Secara default package npm yang ditambahkan termasuk dalam dev dependencies.
 #
 
 Manakah dari pilihan berikut ini yang bukan merupakan fungsi file package-lock.json?
-Jawaban: Menyimpan informasi package global yang digunakan.
+<br>Jawaban: Menyimpan informasi package global yang digunakan.
 #
 
 Berikut ini adalah beberapa alasan perlu menerapkan automated testing, kecuali...
-Jawaban: Meningkatkan kecepatan dan performa aplikasi.
+<br>Jawaban: Meningkatkan kecepatan dan performa aplikasi.
 #
 
 Anda memiliki skenario pengujian seperti berikut:
