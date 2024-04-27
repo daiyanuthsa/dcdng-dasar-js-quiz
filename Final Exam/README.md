@@ -1,6 +1,6 @@
 Manakah dari kode berikut ini yang merupakan kode JavaScript untuk mencetak “Dicoding” ke konsol?
-Jawaban: ``` console.log(“Dicoding”); ```
-
+<br>Jawaban: ``` console.log(“Dicoding”); ```
+#
 JavaScript termasuk ke dalam scripting language, apa maksudnya?
 Jawaban: Tidak perlu di-compile agar bisa dijalankan.
 
