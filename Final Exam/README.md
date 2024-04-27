@@ -1,12 +1,12 @@
 Manakah dari kode berikut ini yang merupakan kode JavaScript untuk mencetak “Dicoding” ke konsol?
-Jawaban: console.log(“Dicoding”);
+Jawaban: ``` console.log(“Dicoding”); ```
 
 JavaScript termasuk ke dalam scripting language, apa maksudnya?
 Jawaban: Tidak perlu di-compile agar bisa dijalankan.
 
 
 Perhatikan kode berikut:
-
+```
 const stock = 0;
 const milkNeeded = 25;
 if (stock > milkNeeded) {
@@ -16,6 +16,7 @@ if (stock > milkNeeded) {
   console.log('Out of Stock!');
 }
 console.log('Thank you');
+```
 Output dari program di atas adalah...
 
 Jawaban:
@@ -24,20 +25,22 @@ Thank you
 
 
 Perhatikan kode berikut:
-
+```
 const name = 'Dicoding';
 const language = 'JavaScript';
 console.log(`Hello $name. Welcome to $language!`);
+```
 Apakah yang akan ditampilkan pada konsol ketika kode dijalankan?
 Jawaban: Error
 
 
 Manakah output yang tepat dari kode berikut?
-
+```
 let myVariable = 12;
 myVariable = 30;
 myVariable = 5;
 console.log(myVariable);
+```
 Jawaban: 5
 
 
@@ -49,14 +52,17 @@ Jawaban: Array
 
 
 Terdapat array seperti berikut:
+```
 const phoneticAlphabet = ["Alpha", "Bravo", "Delta"];
 // TODO: Kode untuk menambahkan item Charlie pada index ke-2
 console.log(phoneticAlphabet);
+```
 Manakan kode yang perlu Anda tambahkan pada TODO supaya array phoneticAlphabet akan menampilkan output: [ 'Alpha', 'Bravo', 'Charlie', 'Delta' ] ?
 Jawaban: phoneticAlphabet.splice(2, 0, “Charlie”);
 
 
 Perhatikan potongan kode berikut:
+```
 const capital = {
     "Jakarta": "Indonesia",
     "London": "England",
@@ -64,15 +70,18 @@ const capital = {
 }
 capital["New Delhi"] = "Indonesia";
 console.log(capital["Indonesia"]);
+```
 Ketika kode di atas dijalankan, maka outputnya adalah...
 Jawaban: undefined
 
 
 Perhatikan kode berikut:
+```
 function calculate(value) {
     return value < 2 ? value : (calculate(value - 1) + calculate(value - 2));
 }
 console.log(calculate(3));
+```
 Jika kode di atas dijalankan, maka manakah hasilnya?
 Jawaban: 2 
 
@@ -81,20 +90,24 @@ Berapa banyak parameter yang bisa dimiliki oleh suatu function?
 Jawaban: Sesuai kebutuhan
 
 Perhatikan kode di bawah ini.
+```
 class Car { }
 const car = new Car();
 console.log(typeof Car);
+```
 Apa output yang akan dihasilkan?
 Jawaban: Function
 
 
 Perhatikan kode constructor function berikut.
+```
 function car({ brand, maxSpeed, wheelCount }) {
   this.brand = brand;
   this.maxSpeed = maxSpeed;
   this.wheelCount = wheelCount;
 }
 const myCar = car({ brand: 'Toyota', maxSpeed: 200, wheelCount: 4 });
+```
 Jika kode di atas dijalankan, objek myCar gagal dibuat. Apa alasannya?
 Jawaban: Pemanggilan constructor function car harus diawali dengan keyword new.
 
@@ -132,6 +145,7 @@ Jawaban: throw
 
 
 Perhatikan kode berikut:
+```
 let myString = "";
 try {
     myString += "a";
@@ -144,11 +158,13 @@ try {
     myString += "d";
 }
 console.log(myString);
+```
 Apakah output dari program di atas?
 Jawaban: Error
 
 
 Perhatikan kode berikut:
+```
 try {
     const arr = [1, 2, 3, 4];
     for (let i = 0; i <= 4; i++) {
@@ -157,6 +173,7 @@ try {
 } catch(e) {
     console.log("Out of bounds");
 }
+```
 Output yang akan dihasilkan ketika kode di atas dijalankan adalah...
 Jawaban:1
 2
