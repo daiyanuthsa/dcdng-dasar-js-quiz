@@ -2,11 +2,11 @@ Manakah dari kode berikut ini yang merupakan kode JavaScript untuk mencetak “D
 <br>Jawaban: ``` console.log(“Dicoding”); ```
 #
 JavaScript termasuk ke dalam scripting language, apa maksudnya?
-Jawaban: Tidak perlu di-compile agar bisa dijalankan.
+<br>Jawaban: Tidak perlu di-compile agar bisa dijalankan.
 #
 
 Perhatikan kode berikut:
-```
+```javascript
 const stock = 0;
 const milkNeeded = 25;
 if (stock > milkNeeded) {
@@ -25,7 +25,7 @@ Thank you
 #
 
 Perhatikan kode berikut:
-```
+```javascript
 const name = 'Dicoding';
 const language = 'JavaScript';
 console.log(`Hello $name. Welcome to $language!`);
@@ -35,7 +35,7 @@ Jawaban: Error
 #
 
 Manakah output yang tepat dari kode berikut?
-```
+```javascript
 let myVariable = 12;
 myVariable = 30;
 myVariable = 5;
@@ -45,24 +45,24 @@ Jawaban: 5
 #
 
 Manakah pernyataan berikut ini yang benar terkait if statement?
-Jawaban: Kita bisa menambahkan blok kode if di dalam if.
+<br>Jawaban: Kita bisa menambahkan blok kode if di dalam if.
 #
 Diberikan sejumlah elemen yang harus disimpan secara berurutan. Manakah struktur data yang akan Anda gunakan?
-Jawaban: Array
+<br>Jawaban: Array
 #
 
 Terdapat array seperti berikut:
-```
+```javascript
 const phoneticAlphabet = ["Alpha", "Bravo", "Delta"];
 // TODO: Kode untuk menambahkan item Charlie pada index ke-2
 console.log(phoneticAlphabet);
 ```
 Manakan kode yang perlu Anda tambahkan pada TODO supaya array phoneticAlphabet akan menampilkan output: [ 'Alpha', 'Bravo', 'Charlie', 'Delta' ] ?
-Jawaban: phoneticAlphabet.splice(2, 0, “Charlie”);
+<br>Jawaban: phoneticAlphabet.splice(2, 0, “Charlie”);
 #
 
 Perhatikan potongan kode berikut:
-```
+```javascript
 const capital = {
     "Jakarta": "Indonesia",
     "London": "England",
@@ -76,7 +76,7 @@ Jawaban: undefined
 #
 
 Perhatikan kode berikut:
-```
+```javascript
 function calculate(value) {
     return value < 2 ? value : (calculate(value - 1) + calculate(value - 2));
 }
@@ -90,7 +90,7 @@ Berapa banyak parameter yang bisa dimiliki oleh suatu function?
 Jawaban: Sesuai kebutuhan
 #
 Perhatikan kode di bawah ini.
-```
+```javascript
 class Car { }
 const car = new Car();
 console.log(typeof Car);
@@ -100,7 +100,7 @@ Jawaban: Function
 #
 
 Perhatikan kode constructor function berikut.
-```
+```javascript
 function car({ brand, maxSpeed, wheelCount }) {
   this.brand = brand;
   this.maxSpeed = maxSpeed;
@@ -109,23 +109,23 @@ function car({ brand, maxSpeed, wheelCount }) {
 const myCar = car({ brand: 'Toyota', maxSpeed: 200, wheelCount: 4 });
 ```
 Jika kode di atas dijalankan, objek myCar gagal dibuat. Apa alasannya?
-Jawaban: Pemanggilan constructor function car harus diawali dengan keyword new.
+<br>Jawaban: Pemanggilan constructor function car harus diawali dengan keyword new.
 #
 
 Istilah pewarisan pada paradigma Object Oriented Programming biasa dikenal dengan…
-Jawaban: Inheritance
+<br>Jawaban: Inheritance
 #
 
 Berikut ini yang bukan merupakan karakteristik dari functional programming, adalah...
-Jawaban: Polymorphism
+<br>Jawaban: Polymorphism
 #
 
 Apakah yang dimaksud dengan Functional Programming?
-Jawaban: Paradigma pemrograman di mana proses komputasi didasarkan pada fungsi matematika murni.
+<br>Jawaban: Paradigma pemrograman di mana proses komputasi didasarkan pada fungsi matematika murni.
 #
 
 Bagaimanakah karakteristik API pada Node.js?
-Jawaban: Asynchronous
+<br>Jawaban: Asynchronous
 #
 
 Bagaimana cara memeriksa versi NPM yang terinstal saat ini?
@@ -133,7 +133,7 @@ Jawaban: ``` npm --version ```
 #
 
 Cara yang tepat untuk meng-export beberapa nilai sekaligus dalam module adalah ...
-Jawaban: Menyimpan setiap nilai pada object literals.
+<br>Jawaban: Menyimpan setiap nilai pada object literals.
 #
 
 Berikut ini adalah alasan untuk menerapkan module pada project JavaScript, kecuali...
@@ -145,7 +145,7 @@ Jawaban: throw
 #
 
 Perhatikan kode berikut:
-```
+```javascript
 let myString = "";
 try {
     myString += "a";
@@ -160,11 +160,11 @@ try {
 console.log(myString);
 ```
 Apakah output dari program di atas?
-Jawaban: Error
+Jawaban: ``` Error ```
 #
 
 Perhatikan kode berikut:
-```
+```javascript
 try {
     const arr = [1, 2, 3, 4];
     for (let i = 0; i <= 4; i++) {
@@ -211,7 +211,7 @@ Jawaban: Meningkatkan kecepatan dan performa aplikasi.
 #
 
 Anda memiliki skenario pengujian seperti berikut:
-```
+```javascript
 test('should return the minimum number between 3 arguments', () => {
     expect(findMin(1, 2, 3)).toEqual(1);
     expect(findMin(5, 1, 2)).toEqual(1);
@@ -222,7 +222,7 @@ test('should return the minimum number between 3 arguments', () => {
 ```
 Ada banyak cara atau algoritma untuk memenuhi skenario di atas. Pilihlah fungsi yang gagal memenuhi pengujian tersebut!
 Jawaban: 
-```
+```javascript
 function findMin(a, b, c) {
     let minValue = 0;
 
