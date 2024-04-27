@@ -191,6 +191,7 @@ Jawaban: Meningkatkan kecepatan dan performa aplikasi.
 
 
 Anda memiliki skenario pengujian seperti berikut:
+```
 test('should return the minimum number between 3 arguments', () => {
     expect(findMin(1, 2, 3)).toEqual(1);
     expect(findMin(5, 1, 2)).toEqual(1);
@@ -198,6 +199,7 @@ test('should return the minimum number between 3 arguments', () => {
     expect(findMin(-1, 0, -1)).toEqual(-1);
     expect(findMin(2, 2, 2)).toEqual(2);
 });
+```
 Ada banyak cara atau algoritma untuk memenuhi skenario di atas. Pilihlah fungsi yang gagal memenuhi pengujian tersebut!
 Jawaban: 
 
