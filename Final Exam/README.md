@@ -6,7 +6,7 @@ Jawaban: Tidak perlu di-compile agar bisa dijalankan.
 #
 
 Perhatikan kode berikut:
-```
+```javascript
 const stock = 0;
 const milkNeeded = 25;
 if (stock > milkNeeded) {
