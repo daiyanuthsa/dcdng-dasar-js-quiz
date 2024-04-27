@@ -1,0 +1,9 @@
+Ketika menambahkan package dengan NPM menggunakan perintah:
+npm install <package-name> --save-dev
+Di manakah package tersebut akan disimpan?
+
+Jawaban: Pada folder node_modules.
+
+
+Manakah perintah berikut ini yang tepat untuk menginstal package NPM ke dalam project?
+Jawaban: Semua benar
