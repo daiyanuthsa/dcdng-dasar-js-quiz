@@ -1,0 +1,8 @@
+Knowledge Check : Asynchronous Process
+
+Apa yang dilakukan await dalam kode JavaScript?
+Jawaban: Await menunggu hingga operasi asynchronous selesai dilakukan sebelum menjalankan baris kode selanjutnya.
+
+Mengapa pada fungsi callback selain membawa argumen data, ia juga membawa argumen error?
+Jawaban: Karena proses asynchronous berpotensi menghasilkan error
+
